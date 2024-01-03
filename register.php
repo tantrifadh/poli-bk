@@ -5,23 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Poliklinik</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="assets/plugins/fontawesome-free/css/all.min.css">
+    <!-- icheck bootstrap -->
     <link rel="stylesheet" href="assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Theme style -->
     <link rel="stylesheet" href="assets/dist/css/adminlte.min.css">
 </head>
 
 <body class="hold-transition register-page">
     <div class="register-box">
         <div class="register-logo">
-            <h1><b>Poliklinik</b></h1>
+            <h2>Poliklinik</h2>
         </div>
 
         <div class="card">
             <div class="card-body register-card-body">
-                <h5 class="login-box-msg">Register</h5>
+                <p class="login-box-msg">Silahkan melakukan pendaftaran <span class="text-primary">pasien</span> </p>
 
-                <form action="pages/auth/Register.php" method="post">
+                <form action="pages/register/checkRegister.php" method="post">
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Nama" name="nama" required>
                         <div class="input-group-append">
@@ -65,7 +71,7 @@
 
                 <div class="social-auth-links text-center">
                     <p>- Sudah punya akun? -</p>
-                    <a href="login.php" class="btn btn-block btn-success">
+                    <a href="loginUser.php" class="btn btn-block btn-success">
                         Login
                     </a>
                 </div>
