@@ -3,6 +3,6 @@
 
     //menghapus semua session
     session_destroy();
-    //pindah halaman login
-    header("location:../../login.php");
+    //pindah halaman dashboard
+    header("location:../../index.php");
 ?>
