@@ -2,15 +2,15 @@
 <?php
     session_start();
     $username = $_SESSION['username'];
-
+    if ($_SESSION['akses']=='dokter'){
+        $id_dokter = $_SESSION['id'];
+    }else if ($_SESSION['akses']=='pasien'){
+        $idPasien = $_SESSION['id'];
+    }
     if ($username == "") {
         header("location:login.php");
     }
 ?>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
 <html lang="en">
 
 <head>

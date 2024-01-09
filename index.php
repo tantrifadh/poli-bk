@@ -29,7 +29,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <i class="fas fa-user fa-fw mb-3 text-primary" style="font-size: 34px;"></i>
+                        <i class="fa fa-user fa-fw mb-3 text-primary" style="font-size: 34px;"></i>
                         <h3 class="">Pasien</h3>
                         <p class="card-text">Apabila anda adalah seorang Pasien, Silahkan Login terlebih dahulu untuk
                             melakukan pendaftaran sebagai pasien</p>
@@ -40,7 +40,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <i class="fas fa-user-nurse fa-fw mb-3 text-success" style="font-size: 34px;"></i>
+                        <i class="fa fa-user-md fa-fw mb-3 text-success" style="font-size: 34px;"></i>
                         <h3 class="">Dokter</h3>
                         <p class="card-text">Apabila anda adalah seorang Dokter, silahkan Login terlebih dahulu untuk
                             memulai melayani pasien</p>

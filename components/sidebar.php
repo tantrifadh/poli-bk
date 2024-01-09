@@ -32,16 +32,14 @@
                                 <p>
                                     Dashboard
                                     <!-- <i class="right fas fa-angle-left fa-solid"></i> -->
-                                    <span class="right badge badge-light">Admin</span>
                                 </p>
                             </a> 
                             <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a href="dokter.php" class="nav-link">
-                                    <i class="fas fa-solid fa-user-nurse nav-icon"></i>
+                                    <i class="fas fa-solid fa fa-user-md nav-icon"></i>
                                     <p>
                                         Dokter
-                                        <span class="right badge badge-light">Admin</span>
                                     </p>
                                 </a>
                             </li>
@@ -50,7 +48,6 @@
                                     <i class="fas fa-solid fa-hospital nav-icon"></i>
                                     <p>
                                         Poli
-                                        <span class="right badge badge-light">Admin</span>
                                     </p>
                                 </a>
                             </li>
@@ -59,7 +56,6 @@
                                     <i class="fas fa-solid fa-pills nav-icon"></i>
                                     <p>
                                         Obat
-                                        <span class="right badge badge-light">Admin</span>
                                     </p>
                                 </a>
                             </li>
@@ -68,7 +64,6 @@
                                     <i class="fas fa-solid fa-user nav-icon"></i>
                                     <p>
                                         Pasien
-                                        <span class="right badge badge-light">Admin</span>
                                     </p>
                                 </a>
                             </li>
@@ -81,7 +76,6 @@
                                 <p>
                                     Dashboard
                                     <!-- <i class="right fas fa-angle-left fa-solid"></i> -->
-                                    <span class="right badge badge-success">Dokter</span>
                                 </p>
                             </a> 
                             <ul class="nav nav-treeview">
@@ -90,7 +84,6 @@
                                     <i class="fas fa-solid fa-notes-medical nav-icon"></i>
                                     <p>
                                         Jadwal Periksa
-                                        <span class="right badge badge-success">Dokter</span>
                                     </p>
                                 </a>
                             </li>
@@ -99,7 +92,6 @@
                                     <i class="fas fa-solid fa-stethoscope nav-icon"></i>
                                     <p>
                                         Periksa Pasien
-                                        <span class="right badge badge-success">Dokter</span>
                                     </p>
                                 </a>
                             </li>
@@ -108,16 +100,6 @@
                                     <i class="fas fa-solid fa-receipt nav-icon"></i>
                                     <p>
                                         Riwayat Pasien
-                                        <span class="right badge badge-success">Dokter</span>
-                                    </p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="profile.php" class="nav-link">
-                                    <i class="fas fa-solid fa-user nav-icon"></i>
-                                    <p>
-                                        Profile
-                                        <span class="right badge badge-success">Dokter</span>
                                     </p>
                                 </a>
                             </li>
@@ -130,7 +112,6 @@
                                 <p>
                                     Dashboard
                                     <!-- <i class="right fas fa-angle-left fa-solid"></i> -->
-                                    <span class="right badge badge-primary">Pasien</span>
                                 </p>
                             </a> 
                             <ul class="nav nav-treeview">
@@ -139,7 +120,6 @@
                                     <i class="fas fa-solid fa-stethoscope nav-icon"></i>
                                     <p>
                                         Daftar Poli
-                                        <span class="right badge badge-primary">Pasien</span>
                                     </p>
                                 </a>
                             </li>
